@@ -699,6 +699,8 @@ curl -X POST http://127.0.0.1:8000/api/v1/chat \
 
 La implementación incluye tests de integración a nivel de API.
 
+![alt text](image-2.png)
+
 Los tests no llaman realmente al LLM ni dependen de n8n.
 
 El `AiOrchestrator` se mockea para mantener los tests:
